@@ -9,6 +9,10 @@ A desktop application that classifies chest X-ray images as **Covid** or **Norma
 - Prints **evaluation metrics** (accuracy, precision/recall/F1, confusion matrix) on your test set.
 
 ---
+## Screenshot
+![Application GUI](assets/gui_screenshot.png)
+
+---
 
 ## Dataset Structure
 Organize your data as follows (Keras reads folder names as labels):
@@ -36,8 +40,10 @@ TestingDataset/
 Use Python **3.10** with a virtual environment named `tf310` (TensorFlow 2.10 compatible).
 
 ```bat
-py -3.10 -m venv C:envs	f310
-C:envs	f310\Scriptsctivate
+py -3.10 -m venv C:
+envs	f310
+C:
+envs	f310\Scripts ctivate
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
@@ -59,7 +65,8 @@ TEST_DIR  = r"C:\path\to\TestingDataset"
 
 ## Run
 ```bat
-C:envs	f310\Scriptsctivate
+C:
+envs	f310\Scripts ctivate
 cd C:\path	o\project
 python main.py
 ```
